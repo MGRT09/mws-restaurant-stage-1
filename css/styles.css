@@ -1,6 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (min-width: 500px) {
+    /*h1 {background-color: red;}*/
+  
+    /* #reviews-container {background-color: deeppink} */
+  
+}
+/* attemtoing to add flexbox */
+.main-flex {
+    width: 100%;
+  margin:auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map-canvas{
+  height: 200px;
+  width: 500px;
+  max-width: 100%;
+  border: 0px solid black;
+}
+
+
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
@@ -37,7 +61,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #maincontent {
   background-color: #f3f3f3;
-  min-height: 100%;
+  /*min-height: 100%;*/
+
 }
 #footer {
   background-color: #444;
@@ -71,7 +96,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+  /*  width: calc(50% - 80px); */
 }
 
 /* Display list items side by side */
@@ -144,13 +169,14 @@ nav h1 a {
   margin: 15px;
   min-height: 380px;
   padding: 0 30px 25px;
-  text-align: left;
-  width: 270px;
+  /*text-align: left;*/
+  /* width: 270px; */
 }
 #restaurants-list .restaurant-img {
+  border-radius: 25px;
   background-color: #ccc;
   display: block;
-  margin: 0;
+  margin: 5px;
   max-width: 100%;
   min-height: 248px;
   min-width: 100%;
@@ -191,11 +217,15 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
-  right: 0;
-  top: 80px;
-  width: 50%;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  
+    
+  /* position: inherit; */
+  /*right: 0;*/
+  
+  
 }
 .inside #map {
   background-color: #ccc;
@@ -203,9 +233,9 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 50%;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
@@ -218,7 +248,8 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+	border-radius: 25px;
+    width: 90%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -240,7 +271,10 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+  /*width: 50%;*/
+  position: relative;
+    top: 250px;
+  
 }
 #reviews-container {
   padding: 30px 40px 80px;

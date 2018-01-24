@@ -10,6 +10,7 @@
 </head>
 
 <body class="inside">
+    <div class="main-flex">
   <!-- Beginning header -->
   <header>
     <!-- Beginning nav -->
@@ -22,16 +23,18 @@
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
-  </header>
-  <!-- End header -->
-
-  <!-- Beginning main -->
-  <main id="maincontent">
-    <!-- Beginning map -->
-    <section id="map-container">
+       <!-- Beginning map -->
+    <section class="map-canvas" id="map-container">
       <div id="map"></div>
     </section>
     <!-- End map -->
+  </header>
+        
+  <!-- End header -->
+<div class="main-flex">
+  <!-- Beginning main -->
+  <main id="maincontent">
+   
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
       <h1 id="restaurant-name"></h1>
@@ -48,7 +51,8 @@
     <!-- End reviews -->
   </main>
   <!-- End main -->
-
+</div>
+ </div>       
   <!-- Beginning footer -->
   <footer id="footer">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
