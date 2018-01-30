@@ -2,8 +2,8 @@
 /* CSS Document */
 
 @media screen and (min-width: 500px) {
-    /*h1 {background-color: red;}*/
-  
+  /*  h1 {background-color: red;}*/
+  /*.filter-options select {background-color: red;}*/
     /* #reviews-container {background-color: deeppink} */
   
 }
@@ -131,7 +131,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
+  height: 75px;
   background-color: #3397DB;
   text-align: center;
 }
@@ -151,7 +151,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+ /* width: 200px; */
 }
 
 /* ====================== Restaurant Listing ====================== */
