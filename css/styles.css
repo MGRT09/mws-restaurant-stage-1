@@ -250,6 +250,7 @@ nav h1 a {
 #restaurant-img {
 	border-radius: 25px;
     width: 90%;
+    max-width: 750px;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -273,8 +274,9 @@ nav h1 a {
   padding: 140px 40px 30px;
   /*width: 50%;*/
   position: relative;
-    top: 250px;
-  
+  top: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 #reviews-container {
   padding: 30px 40px 80px;
